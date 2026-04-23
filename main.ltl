@@ -1,0 +1,15 @@
+// ltl-sed-like/main.ltl
+//
+// Stream editor subset — substitute / delete / append / print.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-sed-like v0.1.0")
+    io::println("Stream editor subset — substitute / delete / append / print.")
+    0
+}
