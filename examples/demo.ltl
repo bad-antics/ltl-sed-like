@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_sed_like
+
+import std::io
+use ltl_sed_like as lib
+
+fn main() {
+    io::println("ltl_sed_like demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
